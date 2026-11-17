@@ -1,8 +1,0 @@
-{
-  "apiVersion": 3,
-  "title": "Navigation anchor",
-  "name": "wd/menu-anchor",
-  "description": "Allows smooth landing page navigation.",
-  "category": "xtemos",
-  "textdomain": "woodmart"
-}

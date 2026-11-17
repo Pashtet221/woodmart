@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+DIR="$(cd "$(dirname "$0")"/.. && pwd)"
+
+# Load only a private local config. The committed .env.example is documentation
+# and must never be treated as a credential source.
+if [[ -f "$DIR/config/.env" ]]; then
+  set -a
+  # shellcheck disable=SC1090
+  source "$DIR/config/.env"
+  set +a
+fi
+
+missing=()
+[[ -z "${WORDPRESS_URL:-}" ]] && missing+=(WORDPRESS_URL)
+[[ -z "${WORDPRESS_USERNAME:-}" ]] && missing+=(WORDPRESS_USERNAME)
+[[ -z "${WORDPRESS_APP_PASSWORD:-}" ]] && missing+=(WORDPRESS_APP_PASSWORD)
+
+if (( ${#missing[@]} > 0 )); then
+  printf 'Missing required WordPress configuration: %s\n' "${missing[*]}" >&2
+  printf 'Set them as Codex environment variables or in untracked codex/config/.env.\n' >&2
+  exit 2
+fi
+
+exec bash "$DIR/scripts/wordpress-api.sh" "$@"

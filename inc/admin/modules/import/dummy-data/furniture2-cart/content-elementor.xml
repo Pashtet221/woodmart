@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Furniture 2 elementor dummy</title>
+	<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor</link>
+	<description>Just another WoodMart Dummy 2.0 Sites site</description>
+	<pubDate>Tue, 18 Apr 2023 13:46:07 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
+	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/furniture2-elementor</wp:base_blog_url>
+	<wp:base_uploads_url>https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/</wp:base_uploads_url>
+
+								<item>
+					<title><![CDATA[wd-furniture-sequre]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor/wd-furniture-sequre/</link>
+					<pubDate>Thu, 20 Apr 2023 12:12:32 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sequre.svg</guid>
+															<wp:post_id>97</wp:post_id>
+					<wp:post_date><![CDATA[2023-04-20 12:12:32]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-04-20 12:12:32]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-04-20 12:12:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-04-20 12:12:32]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[wd-furniture-sequre]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sequre.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/04/wd-furniture-sequre.svg]]></wp:meta_value>
+						</wp:postmeta>
+									</item>
+								<item>
+					<title><![CDATA[payment-methods]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor/payment-methods/</link>
+					<pubDate>Thu, 20 Apr 2023 12:12:55 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods.jpg</guid>
+															<wp:post_id>107</wp:post_id>
+					<wp:post_date><![CDATA[2023-04-20 12:12:55]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-04-20 12:12:55]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-04-20 12:12:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-04-20 12:12:55]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[payment-methods]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/04/payment-methods.jpg]]></wp:meta_value>
+						</wp:postmeta>
+									</item>
+								<item>
+					<title><![CDATA[wd-furniture-privacy]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor/wd-furniture-privacy/</link>
+					<pubDate>Thu, 20 Apr 2023 12:12:58 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-privacy.svg</guid>
+															<wp:post_id>119</wp:post_id>
+					<wp:post_date><![CDATA[2023-04-20 12:12:58]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-04-20 12:12:58]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-04-20 12:12:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-04-20 12:12:58]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[wd-furniture-privacy]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-privacy.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/04/wd-furniture-privacy.svg]]></wp:meta_value>
+						</wp:postmeta>
+									</item>
+								<item>
+					<title><![CDATA[wd-furniture-phone]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor/wd-furniture-phone-2/</link>
+					<pubDate>Thu, 20 Apr 2023 12:13:01 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-phone-1.svg</guid>
+															<wp:post_id>127</wp:post_id>
+					<wp:post_date><![CDATA[2023-04-20 12:13:01]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-04-20 12:13:01]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-04-20 12:13:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-04-20 12:13:01]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[wd-furniture-phone-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-phone-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/04/wd-furniture-phone-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+									</item>
+								<item>
+					<title><![CDATA[Cart - Furniture 2]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/furniture2-elementor/woodmart_layout/cart-furniture-2/</link>
+					<pubDate>Mon, 08 May 2023 09:53:08 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-elementor/?post_type=woodmart_layout&#038;p=1066</guid>
+											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-woo-el-notices-builder-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-el-notices-builder.css?ver=8.6.4" type="text/css" media="all" /> 							
+							<form action="https://dummy.xtemos.com/woodmart2/furniture2-elementor/cart/" method="post">
+				<table>
+					<thead>
+					<tr>
+						<th scope="col">&nbsp;</th>
+						<th scope="col">&nbsp;</th>
+						<th scope="col">Product</th>
+						<th scope="col">Price</th>
+						<th scope="col">Quantity</th>
+						<th scope="col">Subtotal</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<a role="button" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/cart/?remove_item=488e1b72d6eb1dafad81f1ee4c479802&#038;_wpnonce=c5f7505ab3" aria-label="Remove Belt - French Bistre from cart" data-product_id="481" data-product_sku="AR-209">&times;</a>							</td>
+							<td>
+								<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/?attribute_pa_color=french-bistre"><img width="430" height="491" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-430x491.jpg" alt="Belt - French Bistre" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-2.jpg 700w" sizes="auto, (max-width: 430px) 100vw, 430px" /></a>							</td>
+							<td data-title="Product">
+								<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/?attribute_pa_color=french-bistre">Belt - French Bistre</a>								</td>
+								<td data-title="Price">
+									<bdi>&#36;680</bdi>								</td>
+								<td data-title="Quantity">
+			<button type="button" aria-label="Decrease quantity">-</button>
+	<label for="quantity_6ac6316dcfe0b">Belt - French Bistre quantity</label>
+	<input
+		type="number"
+				id="quantity_6ac6316dcfe0b"
+		class="input-text qty text"
+		value="1"
+		aria-label="Product quantity"
+				min="0"
+				name="cart[488e1b72d6eb1dafad81f1ee4c479802][qty]"
+					step="1"
+			placeholder=""
+			inputmode="numeric"
+			autocomplete="off"
+			>
+			<button type="button" aria-label="Increase quantity">+</button>
+								</td>
+								<td data-title="Subtotal">
+									<bdi>&#36;680</bdi>								</td>
+							</tr>
+				<tr>
+					<td colspan="12">
+									<label for="coupon_code">
+										Coupon:									</label>
+									<input type="text" name="coupon_code" id="coupon_code" value="" placeholder="Coupon code" />
+									<button type="submit" name="apply_coupon" value="Apply coupon">
+										Apply coupon									</button>
+							<button type="submit" name="update_cart" value="Update cart">
+								Update cart							</button>
+							<input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="c5f7505ab3" /><input type="hidden" name="_wp_http_referer" value="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php" />						
+					</td>
+				</tr>
+								</tbody>
+			</table>
+					</form>
+								<link rel="stylesheet" id="wd-swiper-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/lib-swiper.css?ver=8.6.4" type="text/css" media="all" /> 					
+						<link rel="stylesheet" id="wd-info-box-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/el-info-box.css?ver=8.6.4" type="text/css" media="all" /> 						
+															<img  src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-phone-1.svg" title="wd-furniture-phone" loading="lazy" width="32" height="32">													
+											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+								Have questions?						</h4>
+					<p>Our experts are here to help! <u><em>Call Us</em></u></p>
+									<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/contact-us/" aria-label="Infobox link"></a>
+															<img  src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sequre.svg" title="wd-furniture-sequre" loading="lazy" width="32" height="32">													
+											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+								Secure shopping						</h4>
+					<p>All transactions are protected by SSL</p>
+															<img  src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-privacy.svg" title="wd-furniture-privacy" loading="lazy" width="32" height="32">													
+											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+								Privacy protection						</h4>
+					<p>Your privacy is always our top priority.</p>
+												<link rel="stylesheet" id="wd-swiper-arrows-critical-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/lib-swiper-arrows-critical.css?ver=8.6.4" type="text/css" media="all" /> 					
+								<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/el-section-title.css?ver=8.6.4" type="text/css" media="all" /> 					
+				<h4>Cart Totals</h4> 
+	<h2>Cart totals</h2>
+	<table cellspacing="0">
+		<tr>
+			<th>Subtotal</th>
+			<td data-title="Subtotal"><bdi>&#36;680</bdi></td>
+		</tr>
+			<tr>
+	<th>Shipment</th>
+	<td data-title="Shipment">
+		Enter your address to view shipping options.
+			</td>
+</tr>
+		<tr>
+			<th>Total</th>
+			<td data-title="Total"><strong><bdi>&#36;680</bdi></strong> </td>
+		</tr>
+	</table>
+<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/checkout/">
+	Proceed to checkout</a>
+				<h4>Payment methods:</h4> 
+								<img width="403" height="26" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods.jpg 403w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods-400x26.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/payment-methods-150x10.jpg 150w" sizes="auto, (max-width: 403px) 100vw, 403px" />					
+				<h4>Delivery information:</h4> 
+					<p>Although we don’t think you’ll ever want one, we’ll gladly provide a refund if it’s requested within 14 days of purchase.</p>				
+				<h4>14 Days Money Back Guarantee:</h4> 
+					<p>Although we don’t think you’ll ever want one, we’ll gladly provide a refund if it’s requested within 14 days of purchase.</p>				
+								<link rel="stylesheet" id="wd-product-loop-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-product-loop.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-loop-prod-el-base-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-loop-prod-el-base.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-loop-prod-predefined-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-loop-prod-predefined.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-product-loop-base-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-product-loop-base.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-mod-loop-prod-add-btn-replace-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-mod-loop-prod-add-btn-replace.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-mod-more-description-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/mod-more-description.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-mod-loop-prod-hover-fade-critical-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-mod-loop-prod-hover-fade-critical.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-opt-products-bg-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-opt-products-bg.css?ver=8.6.4" type="text/css" media="all" /> 						
+									<h4>You May Be Interested In…</h4>							
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/12-side/" tabindex="-1" aria-label="12 side">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+					<link rel="stylesheet" id="wd-woo-mod-product-labels-default-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-mod-product-labels-default.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-mod-product-labels-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-mod-product-labels.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-woo-mod-product-labels-round-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/woo-mod-product-labels-round.css?ver=8.6.4" type="text/css" media="all" /> 						
+				-10%			
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-7-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="305" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/12-side/">12 side</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/chairs/" rel="tag">Chairs</a>		
+	<del aria-hidden="true"><bdi>&#36;375</bdi></del> Original price was: &#036;375.<ins aria-hidden="true"><bdi>&#36;339</bdi></ins>Current price is: &#036;339.
+					<p>Soft curves and tapering slender lines are inspired by modern design. The result is a classic yet contemporary chair, ideally combined with the table by the same name</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="305" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=305"  data-quantity="1" data-product_id="305" data-product_sku="CH-109" aria-label="Add to cart: &ldquo;12 side&rdquo;" rel="nofollow" data-success_message="&ldquo;12 side&rdquo; has been added to your cart" role="button">Add to cart</a>									
+							<link rel="stylesheet" id="wd-mod-animations-transform-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/mod-animations-transform.css?ver=8.6.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-mod-transform-css" href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/themes/woodmart/css/parts/mod-transform.css?ver=8.6.4" type="text/css" media="all" /> 					
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/12-side/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="305"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/albert/" tabindex="-1" aria-label="Albert">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-5-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-4-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="498" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/albert/">Albert</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/armchairs/" rel="tag">Armchairs</a>		
+	<bdi>&#36;1.600</bdi>
+			Rated <strong>5.00</strong> out of 5		
+					<p>The compact and well-proportioned silhouette of both the seats and the small sofa, opens up to a new way of using the dining space: as a living room within the living room, a hybrid situation.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="498" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/albert/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_498" data-quantity="1" data-product_id="498" data-product_sku="AR-212" aria-label="Select options for &ldquo;Albert&rdquo;" rel="">Select options</a>	
+		This product has multiple variants. The options may be chosen on the product page	
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/albert/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="498"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/arbour/" tabindex="-1" aria-label="Arbour">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-2.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="395" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/arbour/">Arbour</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/sofas/" rel="tag">Sofas</a>		
+	<bdi>&#36;1.900</bdi>
+					<p>The slender organic forms are fluid and graceful.‎ Noguchi emphasises the lightness of the elements with thin yet comfortable upholstery and a choice of cover fabrics in natural colours.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="395" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/arbour/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_395" data-quantity="1" data-product_id="395" data-product_sku="SO-439" aria-label="Select options for &ldquo;Arbour&rdquo;" rel="">Select options</a>	
+		This product has multiple variants. The options may be chosen on the product page	
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/arbour/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="395"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/aruda/" tabindex="-1" aria-label="Aruda">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-16-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="380" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/aruda/">Aruda</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/tables/" rel="tag">Tables</a>		
+	<bdi>&#36;699</bdi>
+			Rated <strong>5.00</strong> out of 5		
+					<p>A new classic for the contemporary dining room, the Mondrian table reinterprets the light and elegant design of the sofa and coffee table collection of the same name</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="380" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=380"  data-quantity="1" data-product_id="380" data-product_sku="TB-265" aria-label="Add to cart: &ldquo;Aruda&rdquo;" rel="nofollow" data-success_message="&ldquo;Aruda&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/aruda/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="380"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/avana/" tabindex="-1" aria-label="Avana">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				-15% Hot			
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-9-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="285" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/avana/">Avana</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/chairs/" rel="tag">Chairs</a>		
+	<del aria-hidden="true"><bdi>&#36;538</bdi></del> Original price was: &#036;538.<ins aria-hidden="true"><bdi>&#36;458</bdi></ins>Current price is: &#036;458.
+					<p>Soft curves and tapering slender lines are inspired by modern design. The result is a classic yet contemporary chair, ideally combined with the table by the same name</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="285" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=285"  data-quantity="1" data-product_id="285" data-product_sku="CH-097" aria-label="Add to cart: &ldquo;Avana&rdquo;" rel="nofollow" data-success_message="&ldquo;Avana&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/avana/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="285"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/" tabindex="-1" aria-label="Belt">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-6-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="481" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/">Belt</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/armchairs/" rel="tag">Armchairs</a>		
+	<bdi>&#36;680</bdi>
+					<p>The compact and well-proportioned silhouette of both the seats and the small sofa, opens up to a new way of using the dining space: as a living room within the living room, a hybrid situation.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="481" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_481" data-quantity="1" data-product_id="481" data-product_sku="AR-209" aria-label="Select options for &ldquo;Belt&rdquo;" rel="">Select options</a>	
+		This product has multiple variants. The options may be chosen on the product page	
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/belt/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="481"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/bluemine/" tabindex="-1" aria-label="Bluemine">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-9-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="512" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/bluemine/">Bluemine</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/armchairs/" rel="tag">Armchairs</a>		
+	<bdi>&#36;1.620</bdi>
+					<p>The compact and well-proportioned silhouette of both the seats and the small sofa, opens up to a new way of using the dining space: as a living room within the living room, a hybrid situation.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="512" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=512"  data-quantity="1" data-product_id="512" data-product_sku="AR-215" aria-label="Add to cart: &ldquo;Bluemine&rdquo;" rel="nofollow" data-success_message="&ldquo;Bluemine&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/bluemine/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="512"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/brypo/" tabindex="-1" aria-label="Brypo">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-tables-prod-15-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				-10%			
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-2-3.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="377" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/brypo/">Brypo</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/tables/" rel="tag">Tables</a>		
+	<del aria-hidden="true"><bdi>&#36;1.749</bdi></del> Original price was: &#036;1.749.<ins aria-hidden="true"><bdi>&#36;1.579</bdi></ins>Current price is: &#036;1.579.
+					<p>A new classic for the contemporary dining room, the Mondrian table reinterprets the light and elegant design of the sofa and coffee table collection of the same name</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="377" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=377"  data-quantity="1" data-product_id="377" data-product_sku="TB-264" aria-label="Add to cart: &ldquo;Brypo&rdquo;" rel="nofollow" data-success_message="&ldquo;Brypo&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/brypo/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="377"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/cafoscari/" tabindex="-1" aria-label="Ca&#8217;foscari">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-11-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-14-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="521" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/cafoscari/">Ca&#8217;foscari</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/armchairs/" rel="tag">Armchairs</a>		
+	<bdi>&#36;1.326</bdi>
+					<p>The compact and well-proportioned silhouette of both the seats and the small sofa, opens up to a new way of using the dining space: as a living room within the living room, a hybrid situation.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="521" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=521"  data-quantity="1" data-product_id="521" data-product_sku="AR-218" aria-label="Add to cart: &ldquo;Ca&#039;foscari&rdquo;" rel="nofollow" data-success_message="&ldquo;Ca&#039;foscari&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/cafoscari/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="521"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/can/" tabindex="-1" aria-label="Can">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-10-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-sofas-prod-4-3.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="432" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/can/">Can</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/sofas/" rel="tag">Sofas</a>		
+	<bdi>&#36;2.100</bdi>
+					<p>The slender organic forms are fluid and graceful.‎ Noguchi emphasises the lightness of the elements with thin yet comfortable upholstery and a choice of cover fabrics in natural colours.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="432" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=432"  data-quantity="1" data-product_id="432" data-product_sku="SO-444" aria-label="Add to cart: &ldquo;Can&rdquo;" rel="nofollow" data-success_message="&ldquo;Can&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/can/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="432"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/curve/" tabindex="-1" aria-label="Curve">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-1-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-8-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="250" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/curve/">Curve</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/chairs/" rel="tag">Chairs</a>		
+	<bdi>&#36;320</bdi>
+			Rated <strong>4.00</strong> out of 5		
+					<p>Soft curves and tapering slender lines are inspired by modern design. The result is a classic yet contemporary chair, ideally combined with the table by the same name</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="250" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=250"  data-quantity="1" data-product_id="250" data-product_sku="CH-832" aria-label="Add to cart: &ldquo;Curve&rdquo;" rel="nofollow" data-success_message="&ldquo;Curve&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/curve/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="250"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>
+		<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/daiki-studio/" tabindex="-1" aria-label="Daiki Studio">
+			<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-armchairs-prod-3-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />		</a>
+				<img width="649" height="742" src="http://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-649x742.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-649x742.jpg 649w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-263x300.jpg 263w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-430x491.jpg 430w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-150x171.jpg 150w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-350x400.jpg 350w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1-400x457.jpg 400w, https://dummy.xtemos.com/woodmart2/furniture2-elementor/wp-content/uploads/sites/10/2023/04/wd-furniture-chair-prod-8-1.jpg 700w" sizes="auto, (max-width: 649px) 100vw, 649px" />			
+			<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/compare/" data-id="489" rel="nofollow" aria-label="Toggle compare">
+				Compare
+			</a>
+		<h3><a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/daiki-studio/">Daiki Studio</a></h3>				
+						<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product-category/armchairs/" rel="tag">Armchairs</a>		
+	<bdi>&#36;1.200</bdi>
+					<p>The compact and well-proportioned silhouette of both the seats and the small sofa, opens up to a new way of using the dining space: as a living room within the living room, a hybrid situation.</p>
+				<a href="#" rel="nofollow" aria-label="Read more description"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/wishlist/" data-key="94f1478d4d" data-product-id="489" rel="nofollow" aria-label="Toggle wishlist">
+					Add to wishlist
+				</a>
+					<a href="/woodmart2/furniture2-elementor/wp-admin/admin-ajax.php?add-to-cart=489"  data-quantity="1" data-product_id="489" data-product_sku="AR-210" aria-label="Add to cart: &ldquo;Daiki Studio&rdquo;" rel="nofollow" data-success_message="&ldquo;Daiki Studio&rdquo; has been added to your cart" role="button">Add to cart</a>									
+			<a
+				href="https://dummy.xtemos.com/woodmart2/furniture2-elementor/product/daiki-studio/"
+				class="open-quick-view"
+				rel="nofollow"
+				data-id="489"
+				aria-label="Quick view"
+				>
+						Quick view					
+			</a>]]></content:encoded>
+															<wp:post_id>1066</wp:post_id>
+					<wp:post_date><![CDATA[2023-05-08 09:53:08]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-05-08 09:53:08]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2026-10-07 11:47:57]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2026-10-07 11:47:57]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[cart-furniture-2]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[woodmart_layout]]></wp:post_type>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[wd_layout_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[cart]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[wd_layout_conditions]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;a:3:{s:20:"condition_comparison";s:7:"include";s:14:"condition_type";s:4:"cart";s:15:"condition_query";s:0:"";}}]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+							<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+							<wp:meta_value><![CDATA[4.3.2]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+							<wp:meta_value><![CDATA[[{"id":"74ea91d","elType":"container","settings":{"structure":"22","margin":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":""},"flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"20","unit":"px","isLinked":""},"flex_direction_tablet":"column","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"3dc8c0c","elType":"container","settings":{"_column_size":"66","width":{"size":"66.6","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","flex_gap":{"column":"","row":"","isLinked":"1","unit":"px","size":""},"container_sticky_offset":"50","container_sticky":"yes"},"elements":[{"id":"db37232","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"f6dc882","elType":"widget","settings":{"style":"default","_padding":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_shipping_progress_bar"},{"id":"88e4ec0","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_before_cart","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"da7791e","elType":"widget","settings":{"_padding":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_cart_table"},{"id":"3a35622","elType":"widget","settings":{"content_repeater":[{"title":"Have questions?","subtitle":"","_id":"092fc82","link":{"url":"https:\/\/dummy.xtemos.com\/woodmart2\/furniture2-elementor\/contact-us\/","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/furniture2-elementor\/wp-content\/uploads\/sites\/10\/2023\/04\/wd-furniture-phone-1.svg","id":"127","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"32","height":"32"},"content":"<p>Our experts are here to help! <span style=\"color: #3366ff\"><u><em>Call Us<\/em><\/u><\/span><\/p>","btn_text":""},{"title":"Secure shopping","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/furniture2-elementor\/wp-content\/uploads\/sites\/10\/2023\/04\/wd-furniture-sequre.svg","id":"97","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"32","height":"32"},"content":"<p>All transactions are protected by SSL<\/p>","btn_text":"","_id":"b259662"},{"title":"Privacy protection","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/furniture2-elementor\/wp-content\/uploads\/sites\/10\/2023\/04\/wd-furniture-privacy.svg","id":"119","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"32","height":"32"},"content":"<p>Your privacy is always our top priority.<\/p>","btn_text":"","_id":"c3d59ef"}],"alignment":"left","image_alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#FFFFFF","woodmart_hover_color_scheme":"dark","slider_spacing":"20","hide_pagination_control":"yes","scroll_y":"-80","padding":{"unit":"px","top":"30","right":"30","bottom":"30","left":"30","isLinked":"1"},"sync_parent_id":"wd_6579c2e94e648","slides_per_view_tablet":{"unit":"px","size":"2","sizes":[]},"sync_group_id":"group-1"},"elements":[],"widgetType":"wd_infobox_carousel"}],"isInner":"1"},{"id":"5c42157","elType":"container","settings":{"_column_size":"33","width":{"size":"33.4","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50"},"elements":[{"id":"b691e3a","elType":"container","settings":{"background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"flex_gap":{"size":"10","column":"10","row":"10","unit":"px","isLinked":"1"},"content_width":"full","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"c342baf","elType":"widget","settings":{"subtitle":"","title":"Cart Totals","after_title":"","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"48d8330","elType":"widget","settings":{"title":"","scroll_y":"-80","button_alignment":"full-width","content_width":"full"},"elements":[],"widgetType":"wd_cart_totals"},{"id":"4c826bd","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_after_cart","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"}],"isInner":"1"},{"id":"e95928c","elType":"container","settings":{"background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"flex_gap":{"size":"0","column":"0","row":"0","unit":"px","isLinked":"1"},"content_width":"full","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"e903a43","elType":"widget","settings":{"subtitle":"","title":"Payment methods:","after_title":"","align":"left","scroll_y":"-80","size":"small","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""}},"elements":[],"widgetType":"wd_title"},{"id":"9f15bcd","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/furniture2-elementor\/wp-content\/uploads\/sites\/10\/2023\/04\/payment-methods.jpg","id":"107","alt":"","source":"library"},"rounding_size":"0","_margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"50b6704","elType":"widget","settings":{"subtitle":"","title":"Delivery information:","after_title":"<p>Although we don\u2019t think you\u2019ll ever want one, we\u2019ll gladly provide a refund if it\u2019s requested within 14 days of purchase.<\/p>","size":"small","align":"left","_margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"a72b42d","elType":"widget","settings":{"subtitle":"","title":"14 Days Money Back Guarantee:","after_title":"<p>Although we don\u2019t think you\u2019ll ever want one, we\u2019ll gladly provide a refund if it\u2019s requested within 14 days of purchase.<\/p>","size":"small","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"}],"isInner":"1"}],"isInner":"1"}],"isInner":false},{"id":"fc2c8ca","elType":"container","settings":{"flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"e9ec68f","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_cart_collaterals","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"c58d879","elType":"widget","settings":{"element_title":"You May Be Interested In\u2026","scroll_y":"-80","products_with_background":"1","products_background":"#FFFFFF","grid_gallery":"no","layout":"carousel","columns_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view":{"unit":"px","size":"5","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"4","sizes":[]},"hide_pagination_control":"yes","slides_per_view_mobile":{"unit":"px","size":"2","sizes":[]},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"26","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"sync_parent_id":"wd_6579c2e9565d4","sync_group_id":"group-1"},"elements":[],"widgetType":"wd_products"}],"isInner":false}]]]></wp:meta_value>
+						</wp:postmeta>
+									</item>
+				</channel>
+</rss>
+	

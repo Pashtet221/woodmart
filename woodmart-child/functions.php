@@ -9,3 +9,5 @@ function woodmart_child_enqueue_styles() {
 	wp_enqueue_style( 'child-style' );
 }
 add_action( 'wp_enqueue_scripts', 'woodmart_child_enqueue_styles', 10010 );
+
+require_once get_stylesheet_directory() . '/inc/checkout.php';

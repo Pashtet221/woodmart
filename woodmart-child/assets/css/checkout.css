@@ -1,0 +1,751 @@
+/* Classic checkout only. Header/footer and other WooCommerce screens are not targeted. */
+.mitkin-checkout {
+  --mk-ink: #22251d;
+  --mk-olive: #626b25;
+  --mk-bg: #fbf7f2;
+  --mk-summary: #f2ebe1;
+  --mk-border: #e1d9cf;
+  --mk-muted: #747468;
+  color: var(--mk-ink);
+  max-width: 1440px;
+  margin: 0 auto 50px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.mitkin-checkout * {
+  box-sizing: border-box;
+}
+.mitkin-checkout h1,
+.mitkin-checkout h2 {
+  font-family: inherit;
+  color: var(--mk-ink);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.14;
+  margin: 0;
+}
+.mitkin-checkout h1 {
+  font-size: clamp(32px, 3.6vw, 54px);
+}
+.mitkin-checkout h2 {
+  font-size: clamp(27px, 2.5vw, 38px);
+  margin-bottom: 22px;
+}
+.mitkin-checkout-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 38px;
+}
+.mitkin-checkout-secure {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-size: 21px;
+  color: #575e37;
+}
+.mitkin-checkout-secure span {
+  font-size: 22px;
+}
+.mitkin-checkout-form {
+  display: block !important;
+}
+.mitkin-checkout-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.mitkin-checkout-main,
+.mitkin-checkout #customer_details {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  float: none !important;
+  min-width: 0;
+}
+.mitkin-checkout-panel {
+  border: 1px solid var(--mk-border);
+  border-radius: 17px;
+  background: var(--mk-bg);
+  padding: 28px 34px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px #37331e03;
+}
+.mitkin-checkout .woocommerce-billing-fields {
+  padding: 0;
+  margin: 0;
+}
+.mitkin-checkout .woocommerce-billing-fields:after {
+  display: none;
+}
+.mitkin-checkout .woocommerce-billing-fields__field-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+}
+.mitkin-checkout .form-row {
+  float: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: 0;
+  clear: none !important;
+  width: 100%;
+}
+.mitkin-checkout .form-row-first,
+.mitkin-checkout .form-row-last {
+  width: calc(50% - 9px);
+}
+.mitkin-checkout .form-row-wide {
+  width: 100%;
+}
+.mitkin-checkout .form-row label {
+  display: block;
+  font:
+    13px/1.4 Arial,
+    sans-serif;
+  color: #686b5c;
+  margin: 0 0 7px;
+}
+.mitkin-checkout .form-row .woocommerce-input-wrapper {
+  display: block;
+}
+.mitkin-checkout input.input-text,
+.mitkin-checkout select,
+.mitkin-checkout textarea,
+.mitkin-checkout .select2-container--default .select2-selection--single {
+  background: #fffcf880 !important;
+  border: 1px solid #cec8bc !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  color: var(--mk-ink);
+  font:
+    18px/1.35 Georgia,
+    "Times New Roman",
+    serif;
+  height: 54px;
+  padding: 13px 16px;
+  width: 100%;
+  min-width: 0;
+}
+.mitkin-checkout textarea {
+  height: 95px;
+  resize: vertical;
+}
+.mitkin-checkout .select2-container {
+  width: 100% !important;
+}
+.mitkin-checkout .select2-container--default .select2-selection--single {
+  padding: 0 12px;
+}
+.mitkin-checkout .select2-selection__rendered {
+  padding-left: 0 !important;
+  line-height: 52px !important;
+}
+.mitkin-checkout .select2-selection__arrow {
+  height: 52px !important;
+}
+.mitkin-checkout input.input-text:focus,
+.mitkin-checkout textarea:focus {
+  outline: 2px solid #737c4433;
+  outline-offset: 1px;
+  border-color: var(--mk-olive) !important;
+}
+.mitkin-checkout input[type="radio"],
+.mitkin-checkout input[type="checkbox"] {
+  accent-color: var(--mk-olive);
+}
+.mitkin-checkout :focus-visible {
+  outline: 2px solid var(--mk-olive);
+  outline-offset: 4px;
+}
+.mitkin-checkout .woocommerce-invalid input.input-text {
+  border-color: #b24b43 !important;
+}
+.mitkin-checkout .woocommerce-validated input.input-text {
+  border-color: #929874 !important;
+}
+.mitkin-checkout .woocommerce-shipping-fields {
+  margin-top: 20px;
+}
+.mitkin-checkout #ship-to-different-address {
+  margin: 0 0 12px;
+  font:
+    14px/1.4 Arial,
+    sans-serif;
+}
+.mitkin-checkout .shipping_address .form-row {
+  margin-bottom: 14px !important;
+}
+.mitkin-checkout .woocommerce-additional-fields {
+  margin-top: 20px;
+}
+.mitkin-checkout .woocommerce-additional-fields > h3 {
+  font:
+    16px/1.4 Georgia,
+    serif;
+}
+.mitkin-checkout .woocommerce-account-fields {
+  margin: 18px 0;
+}
+.mitkin-checkout .woocommerce-account-fields .create-account .form-row {
+  margin-top: 12px !important;
+}
+.mitkin-checkout .woocommerce-account-fields label.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mitkin-checkout .woocommerce-account-fields input[type="checkbox"] {
+  margin: 0;
+}
+.mitkin-checkout .mitkin-checkout-hint {
+  color: var(--mk-muted);
+  font:
+    15px/1.5 Arial,
+    sans-serif;
+  margin: 0;
+}
+.mitkin-checkout .mitkin-shipping-table {
+  border: 0;
+  margin: 20px 0 0;
+  width: 100%;
+  table-layout: fixed;
+}
+.mitkin-checkout .mitkin-shipping-table td,
+.mitkin-checkout .mitkin-shipping-table th {
+  display: block;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.mitkin-checkout .mitkin-shipping-table th {
+  font:
+    13px Arial,
+    sans-serif;
+  color: var(--mk-muted);
+  margin-bottom: 10px;
+}
+.mitkin-checkout ul#shipping_method {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mitkin-checkout #shipping_method li {
+  border: 1px solid var(--mk-border);
+  border-radius: 10px;
+  padding: 16px;
+  position: relative;
+  margin: 0;
+  min-width: 0;
+  text-align: left;
+  background: #fffcf855;
+}
+.mitkin-checkout #shipping_method li.mitkin-method-selected,
+.mitkin-checkout #shipping_method li:has(input:checked),
+.mitkin-checkout #shipping_method li:has(input[type="hidden"]) {
+  border-color: var(--mk-olive);
+  box-shadow: inset 0 0 0 1px var(--mk-olive);
+  background: #eeeddc88;
+}
+.mitkin-checkout #shipping_method input.shipping_method {
+  margin: 3px 9px 0 0;
+  float: left;
+  width: 18px;
+  height: 18px;
+}
+.mitkin-checkout #shipping_method label {
+  display: block;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1.35;
+  margin: 0;
+  min-height: 24px;
+  padding-left: 28px;
+}
+.mitkin-checkout #shipping_method input[type="hidden"] + label {
+  padding-left: 0;
+}
+.mitkin-checkout #shipping_method li > div,
+.mitkin-checkout #shipping_method li > p {
+  margin-top: 12px;
+  font:
+    14px/1.4 Arial,
+    sans-serif;
+  overflow-wrap: anywhere;
+}
+.mitkin-checkout .mitkin-shipping-table .woocommerce-shipping-destination {
+  font:
+    13px/1.5 Arial,
+    sans-serif;
+  margin: 14px 0 0;
+  color: var(--mk-muted);
+}
+.mitkin-checkout #payment {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+.mitkin-checkout #payment ul.payment_methods {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  list-style: none;
+}
+.mitkin-checkout #payment .payment_methods > li {
+  margin: 0 !important;
+  padding: 16px !important;
+  border: 1px solid var(--mk-border);
+  border-radius: 10px;
+  min-width: 0;
+  background: #fffcf855;
+}
+.mitkin-checkout #payment .payment_methods > li.mitkin-method-selected,
+.mitkin-checkout #payment .payment_methods > li:has(> input:checked) {
+  border-color: var(--mk-olive);
+  background: #eeeddc88;
+  box-shadow: inset 0 0 0 1px var(--mk-olive);
+}
+.mitkin-checkout #payment .payment_methods > li > input {
+  margin: 3px 9px 0 0;
+  float: left;
+  width: 18px;
+  height: 18px;
+}
+.mitkin-checkout #payment .payment_methods > li > label {
+  display: block;
+  cursor: pointer;
+  padding-left: 28px;
+  font-size: 17px;
+  line-height: 1.35;
+}
+.mitkin-checkout #payment .payment_methods > li > label img {
+  max-height: 26px;
+  width: auto;
+  float: none;
+  vertical-align: middle;
+  margin: 3px;
+}
+.mitkin-checkout #payment .payment_box {
+  background: transparent !important;
+  border: 0;
+  padding: 12px 0 0 !important;
+  margin: 0 !important;
+  font:
+    14px/1.5 Arial,
+    sans-serif;
+  box-shadow: none;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.mitkin-checkout #payment .payment_box:before {
+  display: none;
+}
+.mitkin-checkout #payment .payment_box input.input-text {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+.mitkin-checkout #payment .payment_methods > .woocommerce-notice,
+.mitkin-checkout #payment .payment_methods > li:only-child {
+  grid-column: 1/-1;
+}
+.mitkin-checkout .mitkin-checkout-summary {
+  width: 100% !important;
+  padding: 30px !important;
+  margin: 0 !important;
+  float: none !important;
+  min-width: 0;
+  background: var(--mk-summary);
+  border: 0 !important;
+  border-radius: 18px;
+  box-shadow: none !important;
+  position: sticky;
+  top: 30px;
+}
+.mitkin-checkout .mitkin-checkout-summary:before,
+.mitkin-checkout .mitkin-checkout-summary:after {
+  display: none !important;
+}
+.mitkin-checkout .mitkin-checkout-summary #order_review_heading {
+  font-size: 38px;
+  text-align: left;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.mitkin-checkout .wd-table-wrapper {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+.mitkin-checkout table.mitkin-review-table {
+  width: 100%;
+  border: 0;
+  margin: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.mitkin-checkout .mitkin-review-table thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.mitkin-checkout .mitkin-review-table td,
+.mitkin-checkout .mitkin-review-table th {
+  background: transparent !important;
+  border: 0;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.mitkin-checkout .mitkin-review-table .product-total {
+  text-align: right;
+  width: 27%;
+  vertical-align: middle;
+}
+.mitkin-checkout .mitkin-review-product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.mitkin-checkout .mitkin-review-image {
+  flex: 0 0 78px;
+}
+.mitkin-checkout .mitkin-review-image img {
+  width: 78px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 !important;
+}
+.mitkin-checkout .mitkin-review-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  display: block;
+}
+.mitkin-checkout .mitkin-review-description {
+  min-width: 0;
+}
+.mitkin-checkout .mitkin-review-description dl.variation {
+  font-size: 13px;
+  margin: 7px 0 0;
+  line-height: 1.4;
+}
+.mitkin-checkout .mitkin-review-description dl.variation dt,
+.mitkin-checkout .mitkin-review-description dl.variation dd {
+  display: inline;
+  float: none;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+.mitkin-checkout .mitkin-review-description dl.variation p {
+  display: inline;
+  margin: 0;
+}
+.mitkin-checkout .product-quantity {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+.mitkin-checkout .mitkin-review-line-total {
+  display: block;
+  font-size: 13px;
+  color: var(--mk-muted);
+  margin-top: 6px;
+}
+.mitkin-checkout .mitkin-review-table tfoot {
+  border-top: 1px solid #d3ccbf;
+}
+.mitkin-checkout .mitkin-review-table tfoot td {
+  text-align: right;
+}
+.mitkin-checkout .mitkin-review-table .cart-discount {
+  color: var(--mk-olive);
+}
+.mitkin-checkout .mitkin-review-table .cart-discount a {
+  font:
+    11px Arial,
+    sans-serif;
+}
+.mitkin-checkout .mitkin-review-table .order-total {
+  border-top: 1px solid #d3ccbf;
+}
+.mitkin-checkout .mitkin-review-table .order-total th,
+.mitkin-checkout .mitkin-review-table .order-total td {
+  padding-top: 20px;
+  font-size: 31px;
+  font-weight: 600;
+}
+.mitkin-checkout .mitkin-review-table .order-total td strong {
+  font-weight: 600;
+}
+.mitkin-checkout .mitkin-review-table .includes_tax {
+  display: block;
+  font:
+    12px/1.4 Arial,
+    sans-serif;
+}
+.mitkin-checkout .mitkin-checkout-place-order {
+  margin-top: 24px;
+}
+.mitkin-checkout .mitkin-checkout-place-order .form-row {
+  padding: 0 !important;
+}
+.mitkin-checkout .woocommerce-terms-and-conditions-wrapper {
+  font:
+    12px/1.5 Arial,
+    sans-serif;
+  margin: 0 0 18px;
+  color: var(--mk-muted);
+}
+.mitkin-checkout .woocommerce-terms-and-conditions-wrapper .form-row label {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.mitkin-checkout .woocommerce-privacy-policy-text p {
+  font-size: 12px;
+}
+.mitkin-checkout #place_order {
+  width: 100%;
+  min-height: 58px;
+  padding: 14px 20px;
+  background: var(--mk-olive) !important;
+  border: 0 !important;
+  border-radius: 11px !important;
+  color: #fff !important;
+  font:
+    26px/1.2 Georgia,
+    "Times New Roman",
+    serif;
+  text-transform: none !important;
+  font-weight: 400;
+  box-shadow: none !important;
+  white-space: normal;
+}
+.mitkin-checkout #place_order:hover {
+  background: #50591d !important;
+}
+.mitkin-checkout .woocommerce-checkout-payment .blockUI,
+.mitkin-checkout .mitkin-checkout-summary .blockUI {
+  border-radius: 12px;
+}
+.mitkin-checkout .required {
+  color: #737c40;
+}
+@media (max-width: 1100px) {
+  .mitkin-checkout-layout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    gap: 20px;
+  }
+  .mitkin-checkout-panel {
+    padding: 24px;
+  }
+  .mitkin-checkout .mitkin-checkout-summary {
+    padding: 24px !important;
+  }
+  .mitkin-checkout .mitkin-review-image {
+    flex-basis: 60px;
+  }
+  .mitkin-checkout .mitkin-review-image img {
+    width: 60px;
+    height: 70px;
+  }
+  .mitkin-checkout .mitkin-review-name {
+    font-size: 16px;
+  }
+  .mitkin-checkout .mitkin-review-product {
+    gap: 10px;
+  }
+  .mitkin-checkout-secure {
+    font-size: 16px;
+  }
+  .mitkin-checkout ul#shipping_method,
+  .mitkin-checkout #payment ul.payment_methods {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .mitkin-checkout {
+    margin-bottom: 25px;
+  }
+  .mitkin-checkout-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 20px;
+  }
+  .mitkin-checkout h1 {
+    font-size: 32px;
+  }
+  .mitkin-checkout-secure {
+    font-size: 16px;
+  }
+  .mitkin-checkout h2 {
+    font-size: 26px;
+    margin-bottom: 17px;
+  }
+  .mitkin-checkout-layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .mitkin-checkout-panel {
+    padding: 20px 17px;
+    border-radius: 15px;
+    margin-bottom: 14px;
+  }
+  .mitkin-checkout .form-row-first,
+  .mitkin-checkout .form-row-last {
+    width: 100%;
+  }
+  .mitkin-checkout .woocommerce-billing-fields__field-wrapper {
+    gap: 12px;
+  }
+  .mitkin-checkout input.input-text,
+  .mitkin-checkout select,
+  .mitkin-checkout textarea {
+    height: 48px;
+    font-size: 16px;
+    padding: 11px 13px;
+  }
+  .mitkin-checkout textarea {
+    height: 90px;
+  }
+  .mitkin-checkout .select2-container--default .select2-selection--single {
+    height: 48px;
+  }
+  .mitkin-checkout .select2-selection__rendered {
+    line-height: 46px !important;
+  }
+  .mitkin-checkout .select2-selection__arrow {
+    height: 46px !important;
+  }
+  .mitkin-checkout #shipping_method li,
+  .mitkin-checkout #payment .payment_methods > li {
+    padding: 13px !important;
+  }
+  .mitkin-checkout #shipping_method label,
+  .mitkin-checkout #payment .payment_methods > li > label {
+    font-size: 16px;
+  }
+  .mitkin-checkout .mitkin-checkout-summary {
+    position: static;
+    padding: 23px 20px !important;
+    border-radius: 15px;
+  }
+  .mitkin-checkout .mitkin-checkout-summary #order_review_heading {
+    font-size: 29px;
+  }
+  .mitkin-checkout .mitkin-review-image {
+    flex-basis: 63px;
+  }
+  .mitkin-checkout .mitkin-review-image img {
+    width: 63px;
+    height: 73px;
+  }
+  .mitkin-checkout .mitkin-review-name {
+    font-size: 16px;
+  }
+  .mitkin-checkout .mitkin-review-table .product-total {
+    width: 29%;
+  }
+  .mitkin-checkout .mitkin-review-table th,
+  .mitkin-checkout .mitkin-review-table td {
+    font-size: 17px;
+  }
+  .mitkin-checkout .mitkin-review-table .order-total th,
+  .mitkin-checkout .mitkin-review-table .order-total td {
+    font-size: 28px;
+  }
+  .mitkin-checkout #place_order {
+    font-size: 23px;
+    min-height: 56px;
+  }
+  .mitkin-checkout .mitkin-review-line-total {
+    font-size: 12px;
+  }
+  .mitkin-checkout .mitkin-checkout-place-order {
+    margin-top: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mitkin-checkout * {
+    scroll-behavior: auto;
+    transition: none !important;
+  }
+}
+/* Override WoodMart's review-table wrapper and global price palette inside this checkout only. */
+.mitkin-checkout .mitkin-checkout-summary #order_review .wd-table-wrapper {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+.mitkin-checkout .mitkin-checkout-summary #order_review_heading {
+  text-transform: none;
+  letter-spacing: -0.025em;
+}
+.mitkin-checkout .mitkin-review-table .product-total {
+  width: 37%;
+}
+.mitkin-checkout .mitkin-review-table th,
+.mitkin-checkout .mitkin-review-table td {
+  font-family: inherit;
+}
+.mitkin-checkout .woocommerce-Price-amount {
+  color: inherit !important;
+  font-family: inherit;
+  font-weight: inherit;
+}
+.mitkin-checkout .mitkin-review-table .order-total td {
+  font-size: clamp(22px, 2.1vw, 32px);
+  white-space: nowrap;
+}
+.mitkin-checkout .mitkin-review-table .order-total th {
+  white-space: nowrap;
+}
+.mitkin-checkout .mitkin-review-table .cart-discount td {
+  color: var(--mk-olive);
+}
+.mitkin-checkout .mitkin-review-line-total,
+.mitkin-checkout .product-quantity {
+  white-space: nowrap;
+}
+.mitkin-checkout-secure svg {
+  flex: 0 0 24px;
+  color: var(--mk-olive);
+}
+@media (max-width: 760px) {
+  .mitkin-checkout .mitkin-review-table .product-total {
+    width: 42%;
+  }
+  .mitkin-checkout .mitkin-review-table .order-total td {
+    font-size: 25px;
+  }
+}
+.mitkin-checkout .mitkin-shipping-table {
+  margin: 0 0 20px;
+}
+.mitkin-checkout textarea {
+  min-height: 95px;
+}
+body.woocommerce-checkout .main-page-wrapper {
+  background: #fbf7f2;
+}

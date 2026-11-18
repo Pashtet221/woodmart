@@ -749,3 +749,168 @@
 body.woocommerce-checkout .main-page-wrapper {
   background: #fbf7f2;
 }
+/* Compact Russia-only address. Native country selects remain in the form for carrier scripts. */
+.mitkin-checkout .mitkin-country-field {
+  display: none !important;
+}
+.mitkin-checkout
+  .woocommerce-billing-fields__field-wrapper.mitkin-address-fields,
+.mitkin-checkout
+  .woocommerce-shipping-fields__field-wrapper.mitkin-address-fields {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px 16px;
+}
+.mitkin-checkout .mitkin-address-fields .form-row {
+  width: auto !important;
+  grid-column: 1/-1;
+  margin-bottom: 0 !important;
+}
+.mitkin-checkout .mitkin-address-fields #billing_state_field,
+.mitkin-checkout .mitkin-address-fields #billing_city_field,
+.mitkin-checkout .mitkin-address-fields #shipping_state_field,
+.mitkin-checkout .mitkin-address-fields #shipping_city_field {
+  grid-column: span 3;
+}
+.mitkin-checkout .mitkin-address-fields .mitkin-address-street {
+  grid-column: span 4;
+}
+.mitkin-checkout .mitkin-address-fields .mitkin-address-postcode {
+  grid-column: span 2;
+}
+.mitkin-checkout .mitkin-address-fields input,
+.mitkin-checkout .mitkin-address-fields select {
+  font-size: 16px;
+}
+.mitkin-checkout .mitkin-checkout-notes {
+  margin-top: 8px;
+  border-top: 1px solid var(--mk-border);
+  padding-top: 16px;
+}
+.mitkin-checkout .mitkin-checkout-notes summary {
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--mk-ink);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.mitkin-checkout .mitkin-checkout-notes summary::-webkit-details-marker {
+  display: none;
+}
+.mitkin-checkout .mitkin-checkout-notes summary:before {
+  content: "+";
+  font:
+    22px/1 Arial,
+    sans-serif;
+  color: var(--mk-olive);
+}
+.mitkin-checkout .mitkin-checkout-notes[open] summary:before {
+  content: "−";
+}
+.mitkin-checkout .mitkin-checkout-notes summary span {
+  font:
+    12px/1.4 Arial,
+    sans-serif;
+  color: var(--mk-muted);
+}
+.mitkin-checkout
+  .mitkin-checkout-notes
+  .woocommerce-additional-fields__field-wrapper {
+  padding-top: 14px;
+}
+.mitkin-checkout .mitkin-checkout-notes #order_comments_field > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.mitkin-checkout .mitkin-review-image {
+  width: 72px !important;
+  min-width: 72px !important;
+  max-width: 72px !important;
+  flex: 0 0 72px !important;
+}
+.mitkin-checkout .mitkin-review-image img {
+  display: block !important;
+  width: 72px !important;
+  max-width: 72px !important;
+  height: 84px !important;
+  object-fit: cover;
+  border-radius: 12px !important;
+}
+.mitkin-checkout .mitkin-checkout-panel {
+  border-radius: 18px !important;
+  background: #fbf8f4 !important;
+  box-shadow: 0 3px 18px #39362104;
+}
+.mitkin-checkout .mitkin-checkout-summary {
+  border-radius: 18px !important;
+  background: linear-gradient(145deg, #f4ede4, #eee6d9) !important;
+}
+.mitkin-checkout .form-row .input-text,
+.mitkin-checkout .select2-container--default .select2-selection--single {
+  border-radius: 12px !important;
+  background: #fffcf9 !important;
+  min-height: 52px;
+}
+.mitkin-checkout .form-row label {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.mitkin-checkout .mitkin-receiver-fields input {
+  padding-left: 16px;
+}
+@media (max-width: 600px) {
+  .mitkin-checkout .mitkin-address-fields #billing_state_field,
+  .mitkin-checkout .mitkin-address-fields #billing_city_field,
+  .mitkin-checkout .mitkin-address-fields #shipping_state_field,
+  .mitkin-checkout .mitkin-address-fields #shipping_city_field {
+    grid-column: 1/-1;
+  }
+  .mitkin-checkout .mitkin-address-fields {
+    gap: 12px !important;
+  }
+  .mitkin-checkout .mitkin-address-fields .mitkin-address-street {
+    grid-column: 1/-1;
+  }
+  .mitkin-checkout .mitkin-address-fields .mitkin-address-postcode {
+    grid-column: 1/-1;
+  }
+  .mitkin-checkout .form-row .input-text {
+    min-height: 48px;
+  }
+  .mitkin-checkout .mitkin-review-image {
+    width: 58px !important;
+    min-width: 58px !important;
+    max-width: 58px !important;
+    flex-basis: 58px !important;
+  }
+  .mitkin-checkout .mitkin-review-image img {
+    width: 58px !important;
+    max-width: 58px !important;
+    height: 70px !important;
+  }
+}
+.mitkin-checkout .mitkin-receiver-fields #billing_first_name,
+.mitkin-checkout .mitkin-receiver-fields #billing_last_name,
+.mitkin-checkout .mitkin-receiver-fields #billing_phone,
+.mitkin-checkout .mitkin-receiver-fields #billing_email {
+  background-repeat: no-repeat !important;
+  background-position: 14px center !important;
+  background-size: 19px 19px !important;
+  padding-left: 43px !important;
+}
+.mitkin-checkout .mitkin-receiver-fields #billing_first_name,
+.mitkin-checkout .mitkin-receiver-fields #billing_last_name {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23626b25' stroke-width='1.5'%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3Cpath d='M4 21v-2a8 8 0 0 1 16 0v2H4Z'/%3E%3C/svg%3E") !important;
+}
+.mitkin-checkout .mitkin-receiver-fields #billing_phone {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23626b25' stroke-width='1.5'%3E%3Cpath d='m7 3 3 5-2 2a16 16 0 0 0 6 6l2-2 5 3-1 4C11 23 1 13 3 4l4-1Z'/%3E%3C/svg%3E") !important;
+}
+.mitkin-checkout .mitkin-receiver-fields #billing_email {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23626b25' stroke-width='1.5'%3E%3Crect x='2' y='4' width='20' height='16' rx='2'/%3E%3Cpath d='m2 5 10 8L22 5'/%3E%3C/svg%3E") !important;
+}

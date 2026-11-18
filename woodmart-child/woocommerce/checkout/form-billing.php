@@ -22,7 +22,7 @@ $fields = $checkout->get_checkout_fields( 'billing' );
 		</div>
 	</section>
 	<section class="mitkin-checkout-panel mitkin-checkout-delivery-panel" aria-labelledby="mitkin-delivery-heading">
-		<h2 id="mitkin-delivery-heading"><?php echo esc_html( WC()->cart->needs_shipping() ? __( '2. Доставка', 'woodmart-child' ) : __( '2. Платёжный адрес', 'woodmart-child' ) ); ?></h2>
+		<h2 id="mitkin-delivery-heading"><?php echo esc_html( WC()->cart->needs_shipping() ? __( '2. Доставка', 'woodmart-child' ) : __( '2. Адрес', 'woodmart-child' ) ); ?></h2>
 		<?php mitkin_checkout_shipping_methods(); ?>
 		<div class="woocommerce-billing-fields__field-wrapper mitkin-address-fields">
 			<?php foreach ( $fields as $key => $field ) : ?>

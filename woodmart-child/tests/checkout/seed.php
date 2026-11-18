@@ -17,6 +17,11 @@ update_option( 'woocommerce_calc_taxes', 'no' );
 update_option( 'woocommerce_ship_to_destination', 'billing' );
 $terms = wp_insert_post( array( 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Условия локального теста', 'post_content' => 'Только тестовый стенд. Реальные заказы не создаются.' ) );
 update_option( 'woocommerce_terms_page_id', $terms );
+// Reproduce a store with a published WoodMart Checkout Builder layout already assigned.
+$layout = wp_insert_post( array( 'post_type' => 'woodmart_layout', 'post_status' => 'publish', 'post_title' => 'Conflicting checkout layout (local test)', 'post_content' => '<div id="mitkin-conflicting-layout">Old checkout builder layout</div>' ) );
+$conditions = get_option( 'wd_layouts_conditions', array() );
+$conditions['checkout_form'] = array( $layout => array( array( 'condition_type' => 'checkout_form', 'condition_comparison' => 'include' ) ) );
+update_option( 'wd_layouts_conditions', $conditions );
 update_option( 'woocommerce_cod_settings', array( 'enabled' => 'yes', 'title' => 'При получении', 'enable_for_methods' => array( 'local_pickup' ) ) );
 update_option( 'woocommerce_bacs_settings', array( 'enabled' => 'yes', 'title' => 'Банковский перевод', 'instructions' => 'Локальный тест: деньги не переводятся.' ) );
 

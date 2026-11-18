@@ -24,6 +24,10 @@ add_action( 'wp_loaded', function () {
 		WC()->cart->add_to_cart( $id );
 	}
 	if ( 'physical' === $mode ) {
+		WC()->customer->set_billing_country( 'US' );
+		WC()->customer->set_billing_address_1( 'Старая улица, 2' );
+		WC()->customer->set_billing_address_2( 'квартира 5' );
+		WC()->customer->save();
 		WC()->cart->apply_coupon( 'mitkin7' );
 	}
 	WC()->cart->calculate_totals();

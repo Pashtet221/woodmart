@@ -7,3 +7,73 @@
  Version:      1.0.0
  Text Domain:  woodmart
 */
+
+/* Shared brand typography. Icon fonts and the WordPress admin toolbar keep their own fonts. */
+:root {
+  --mitkin-font-family: "Times New Roman", Times, serif;
+  --wd-text-font: var(--mitkin-font-family);
+  --wd-title-font: var(--mitkin-font-family);
+  --wd-entities-title-font: var(--mitkin-font-family);
+  --wd-alternative-font: var(--mitkin-font-family);
+  --wd-widget-title-font: var(--mitkin-font-family);
+  --wd-header-el-font: var(--mitkin-font-family);
+  --btn-font-family: var(--mitkin-font-family);
+  --btn-default-font-family: var(--mitkin-font-family);
+  --btn-accented-font-family: var(--mitkin-font-family);
+}
+
+body,
+.website-wrapper {
+  font-family: var(--mitkin-font-family);
+}
+
+.website-wrapper,
+.website-wrapper .elementor {
+  --e-global-typography-primary-font-family: "Times New Roman";
+  --e-global-typography-secondary-font-family: "Times New Roman";
+  --e-global-typography-text-font-family: "Times New Roman";
+  --e-global-typography-accent-font-family: "Times New Roman";
+}
+
+.website-wrapper
+  :where(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    label,
+    input,
+    select,
+    textarea,
+    button,
+    summary,
+    legend,
+    table,
+    .elementor-heading-title,
+    .elementor-widget-text-editor,
+    .wd-text-block
+  ):not(
+    :where(
+      .fa,
+      .fas,
+      .far,
+      .fab,
+      .fal,
+      .fad,
+      .fa-solid,
+      .fa-regular,
+      .fa-brands,
+      .dashicons,
+      [class^="eicon-"],
+      .elementor-icon,
+      .wd-icon,
+      .wd-tools-icon
+    )
+  ),
+.website-wrapper .elementor-widget-text-editor span:not([class]) {
+  font-family: var(--mitkin-font-family) !important;
+}

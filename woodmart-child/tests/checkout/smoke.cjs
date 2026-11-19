@@ -25,6 +25,34 @@ assert(['127.0.0.1', 'localhost', '[::1]'].includes(new URL(base).hostname), 'Re
     await page.goto(base + '/?mitkin_test_cart=physical', { waitUntil: 'load' });
     await page.locator('.mitkin-checkout-form').waitFor();
     await update(() => page.evaluate(() => jQuery(document.body).trigger('update_checkout')));
+    assert.equal(await page.locator('.mitkin-checkout .woocommerce-form-coupon-toggle').count(), 1);
+    assert.equal(await page.locator('.mitkin-checkout form.checkout_coupon').count(), 1);
+    assert.equal(await page.locator('form.checkout form.checkout_coupon').count(), 0, 'Coupon form must not be nested in the order form.');
+    const wideStyle = await page.addStyleTag({ content: '.main-page-wrapper>.container{max-width:none!important;width:100%!important}' });
+    for (const width of [1440, 1920, 2560]) {
+        await page.setViewportSize({ width, height: 1080 });
+        const alignment = await page.locator('.mitkin-checkout').evaluate(e => {
+            const outer = e.getBoundingClientRect();
+            const coupon = e.querySelector('.woocommerce-form-coupon-toggle').getBoundingClientRect();
+            const heading = e.querySelector('.mitkin-checkout-heading').getBoundingClientRect();
+            return { container: outer.width, coupon: coupon.x, heading: heading.x };
+        });
+        assert(alignment.container <= 1441);
+        assert(Math.abs(alignment.coupon - alignment.heading) < 2, 'Coupon drifts away from checkout at ' + width);
+    }
+    await wideStyle.evaluate(e => e.remove());
+    await page.setViewportSize({ width: 1440, height: 1080 });
+    for (const selector of ['.mitkin-checkout h1', '.mitkin-checkout label', '#billing_first_name', '#place_order', '.showcoupon', '.whb-header a']) {
+        assert.match(await page.locator(selector).first().evaluate(e => getComputedStyle(e).fontFamily), /Times New Roman/, 'Inconsistent font: ' + selector);
+    }
+    // Exercise the real coupon AJAX after moving both toggle and form into the shared wrapper.
+    await update(() => page.locator('.woocommerce-remove-coupon').first().click());
+    assert.equal(await page.locator('.mitkin-review-table .cart-discount').count(), 0);
+    await page.locator('.showcoupon').click();
+    await page.locator('form.checkout_coupon').waitFor({ state: 'visible' });
+    await page.locator('#coupon_code').fill('mitkin7');
+    await update(() => page.locator('form.checkout_coupon button[name=apply_coupon]').click());
+    assert.equal(await page.locator('.mitkin-review-table .cart-discount').count(), 1);
     assert.equal(await page.locator('.mitkin-checkout-form').count(), 1, 'WoodMart layout replaced or duplicated the child form.');
     assert.equal(await page.locator('form[name=checkout]').count(), 1, 'Nested or duplicated checkout form.');
     assert.equal(await page.locator('#mitkin-conflicting-layout').count(), 0);

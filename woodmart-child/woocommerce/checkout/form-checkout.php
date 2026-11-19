@@ -7,15 +7,18 @@
  */
 
 defined( 'ABSPATH' ) || exit;
-
+?>
+<div class="mitkin-checkout">
+<?php
+// Coupon/login forms are siblings of form.checkout, inside the same width-constrained container.
 do_action( 'woocommerce_before_checkout_form', $checkout );
 
 if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in() ) {
 	echo esc_html( apply_filters( 'woocommerce_checkout_must_be_logged_in_message', __( 'You must be logged in to checkout.', 'woocommerce' ) ) );
+	echo '</div>';
 	return;
 }
 ?>
-<div class="mitkin-checkout">
 	<div class="mitkin-checkout-heading">
 		<h1><?php esc_html_e( 'Оформление заказа', 'woodmart-child' ); ?></h1>
 		<p class="mitkin-checkout-secure"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="12" rx="2"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v3"/></svg> <?php esc_html_e( 'Безопасное оформление', 'woodmart-child' ); ?></p>
@@ -48,5 +51,5 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			</aside>
 		</div>
 	</form>
-</div>
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+</div>

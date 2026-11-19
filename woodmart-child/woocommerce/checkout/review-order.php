@@ -33,6 +33,7 @@ defined( 'ABSPATH' ) || exit;
 				<td class="product-total">
 					<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', '<span class="product-quantity">' . sprintf( esc_html__( '%s шт.', 'woodmart-child' ), esc_html( $cart_item['quantity'] ) ) . '</span>', $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- standard WooCommerce filter. ?>
 					<span class="mitkin-review-line-total"><?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- WooCommerce formatted price/filter. ?></span>
+					<a class="mitkin-review-remove" href="<?php echo esc_url( add_query_arg( '_wp_http_referer', wc_get_checkout_url(), wc_get_cart_remove_url( $cart_item_key ) ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Удалить товар «%s» из заказа', 'woodmart-child' ), $product->get_name() ) ); ?>" title="<?php esc_attr_e( 'Удалить товар', 'woodmart-child' ); ?>"><span aria-hidden="true">&times;</span></a>
 				</td>
 			</tr>
 		<?php endforeach; ?>

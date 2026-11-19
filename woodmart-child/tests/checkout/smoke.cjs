@@ -98,6 +98,20 @@ assert(['127.0.0.1', 'localhost', '[::1]'].includes(new URL(base).hostname), 'Re
     assert.equal(await page.locator('#payment_method_cod').count(), 1);
     const pickupTotal = await page.locator('.mitkin-review-table .order-total td').innerText();
 
+    for (const width of [1440, 390]) {
+        await page.setViewportSize({ width, height: 1080 });
+        const offsets = await page.locator('#shipping_method input[type=radio], #payment input.input-radio').evaluateAll(inputs => inputs.filter(e => e.getBoundingClientRect().height).map(input => {
+            const label = input.nextElementSibling;
+            const radio = input.getBoundingClientRect();
+            const text = label.getBoundingClientRect();
+            return Math.abs(radio.y + radio.height / 2 - (text.y + 13));
+        }));
+        assert(offsets.length > 1);
+        assert(offsets.every(offset => offset < 1), 'Radio buttons are not centered on the first label line: ' + offsets);
+    }
+    await page.setViewportSize({ width: 1440, height: 1080 });
+
+
     await update(() => page.locator('input.shipping_method[value^="flat_rate:"]').check());
     assert.equal(await page.locator('#payment_method_cod').count(), 0, 'Unavailable COD remained after courier selection.');
     assert.notEqual(await page.locator('.mitkin-review-table .order-total td').innerText(), pickupTotal, 'Shipping selection did not update the total.');
@@ -148,6 +162,24 @@ assert(['127.0.0.1', 'localhost', '[::1]'].includes(new URL(base).hostname), 'Re
         if (mode === 'free') assert.equal(await page.locator('input[name=payment_method]').count(), 0);
         console.log('PASS: ' + mode + ' cart renders without fabricated shipping/payment choices.');
     }
+    await page.goto(base + '/?mitkin_test_cart=physical', { waitUntil: 'load' });
+    await update(() => page.evaluate(() => jQuery(document.body).trigger('update_checkout')));
+    const initialTotal = await page.locator('.order-total td').innerText();
+    for (const remaining of [2, 1, 0]) {
+        const link = page.locator('.mitkin-review-remove').first();
+        assert.match(await link.getAttribute('href'), /_wpnonce=/, 'Remove link lacks the native cart nonce.');
+        assert(await link.getAttribute('aria-label'), 'Remove control has no accessible name.');
+        await Promise.all([page.waitForNavigation({ waitUntil: 'load' }), link.click()]);
+        if (remaining) {
+            await page.locator('.mitkin-review-remove').first().waitFor();
+            assert.equal(await page.locator('.mitkin-review-remove').count(), remaining);
+            assert.notEqual(await page.locator('.order-total td').innerText(), initialTotal);
+            assert.equal(await page.locator('.cart-discount').count(), 1, 'Removal discarded the coupon.');
+        } else {
+            assert.equal(await page.locator('form.checkout').count(), 0, 'Empty cart still allows checkout.');
+        }
+    }
+    console.log('PASS: aligned radios on desktop/mobile, native product removal, recalculated totals, coupon retention and empty-cart redirect.');
     assert.deepEqual(errors, [], 'Browser JavaScript errors.');
     await browser.close();
 })().catch(error => { console.error(error); process.exit(1); });

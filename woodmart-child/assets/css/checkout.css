@@ -951,3 +951,64 @@ body.woocommerce-checkout .main-page-wrapper {
     margin-top: 12px !important;
   }
 }
+
+/* Align the control with the first text line; carrier widgets keep the full card width. */
+.mitkin-checkout #shipping_method li,
+.mitkin-checkout #payment .payment_methods > li {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  column-gap: 10px;
+  align-content: start;
+}
+.mitkin-checkout #shipping_method li > *,
+.mitkin-checkout #payment .payment_methods > li > * {
+  grid-column: 1 / -1;
+}
+.mitkin-checkout #shipping_method input.shipping_method,
+.mitkin-checkout #payment .payment_methods > li > input.input-radio {
+  grid-column: 1;
+  grid-row: 1;
+  position: static;
+  float: none;
+  margin: 4px 0 0;
+  margin-inline: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+}
+.mitkin-checkout #shipping_method li > label,
+.mitkin-checkout #payment .payment_methods > li > label {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0;
+  margin: 0;
+  min-height: 26px;
+  line-height: 26px;
+}
+.mitkin-checkout #shipping_method input[type="hidden"] + label,
+.mitkin-checkout #payment .payment_methods > li > input[style*="display: none"] + label {
+  grid-column: 1 / -1;
+}
+.mitkin-checkout #payment .payment_methods > li > label img {
+  max-height: 22px;
+  margin: 0 3px;
+}
+.mitkin-checkout .mitkin-review-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-top: 8px;
+  border: 1px solid var(--mk-border);
+  border-radius: 50%;
+  color: var(--mk-olive);
+  font: 22px/1 Arial, sans-serif !important;
+  text-decoration: none;
+}
+.mitkin-checkout .mitkin-review-remove:hover,
+.mitkin-checkout .mitkin-review-remove:focus-visible {
+  background: var(--mk-olive);
+  color: #fff;
+  border-color: var(--mk-olive);
+}

@@ -22,6 +22,7 @@ defined( 'ABSPATH' ) || exit;
 			<tr class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 				<td class="product-name">
 					<div class="mitkin-review-product">
+						<a class="mitkin-review-remove" href="<?php echo esc_url( add_query_arg( '_wp_http_referer', wc_get_checkout_url(), wc_get_cart_remove_url( $cart_item_key ) ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Удалить товар «%s» из заказа', 'woodmart-child' ), $product->get_name() ) ); ?>" title="<?php esc_attr_e( 'Удалить товар', 'woodmart-child' ); ?>"><span aria-hidden="true">&times;</span></a>
 						<div class="mitkin-review-image"><?php echo apply_filters( 'woocommerce_cart_item_thumbnail', $product->get_image( 'woocommerce_thumbnail' ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- WooCommerce image HTML/filter. ?></div>
 						<div class="mitkin-review-description">
 							<span class="mitkin-review-name"><?php echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', $product->get_name(), $cart_item, $cart_item_key ) ); ?></span>
@@ -33,7 +34,6 @@ defined( 'ABSPATH' ) || exit;
 				<td class="product-total">
 					<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', '<span class="product-quantity">' . sprintf( esc_html__( '%s шт.', 'woodmart-child' ), esc_html( $cart_item['quantity'] ) ) . '</span>', $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- standard WooCommerce filter. ?>
 					<span class="mitkin-review-line-total"><?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- WooCommerce formatted price/filter. ?></span>
-					<a class="mitkin-review-remove" href="<?php echo esc_url( add_query_arg( '_wp_http_referer', wc_get_checkout_url(), wc_get_cart_remove_url( $cart_item_key ) ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Удалить товар «%s» из заказа', 'woodmart-child' ), $product->get_name() ) ); ?>" title="<?php esc_attr_e( 'Удалить товар', 'woodmart-child' ); ?>"><span aria-hidden="true">&times;</span></a>
 				</td>
 			</tr>
 		<?php endforeach; ?>

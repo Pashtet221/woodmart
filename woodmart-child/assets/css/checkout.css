@@ -999,7 +999,8 @@ body.woocommerce-checkout .main-page-wrapper {
   justify-content: center;
   width: 28px;
   height: 28px;
-  margin-top: 8px;
+  flex: 0 0 28px;
+  margin: 0;
   border: 1px solid var(--mk-border);
   border-radius: 50%;
   color: var(--mk-olive);

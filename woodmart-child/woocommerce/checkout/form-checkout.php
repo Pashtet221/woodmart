@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 <div class="mitkin-checkout">
 <?php
-// Coupon/login forms are siblings of form.checkout, inside the same width-constrained container.
+// Login and notices remain above checkout in the shared container.
 do_action( 'woocommerce_before_checkout_form', $checkout );
 
 if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in() ) {
@@ -51,5 +51,9 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			</aside>
 		</div>
 	</form>
+	<?php // Keep the coupon form outside form.checkout: nested forms break native submission. ?>
+	<div class="mitkin-checkout-coupon">
+		<?php woocommerce_checkout_coupon_form(); ?>
+	</div>
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
 </div>

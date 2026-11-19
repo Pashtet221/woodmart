@@ -44,6 +44,7 @@ function mitkin_is_classic_checkout() {
 function mitkin_checkout_setup() {
 	if ( mitkin_is_classic_checkout() ) {
 		remove_action( 'woocommerce_checkout_order_review', 'woocommerce_checkout_payment', 20 );
+		remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 	}
 }
 add_action( 'wp', 'mitkin_checkout_setup', 30 );

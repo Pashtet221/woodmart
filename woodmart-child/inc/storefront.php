@@ -59,6 +59,9 @@ add_filter( 'woocommerce_get_script_data', 'mitkin_storefront_script_data', 20, 
 
 /** Rename the label only while the mini-cart template is rendering. */
 function mitkin_mini_cart_total_label( $translation, $text, $domain ) {
+	if ( 'Subtotal:' === $text ) {
+		return 'Итого:';
+	}
 	return 'Subtotal' === $text ? 'Итого' : $translation;
 }
 function mitkin_mini_cart_start_labels() {

@@ -98,3 +98,9 @@ body {
 }
 .woocommerce-message:before,
 .woocommerce-info:before { color: var(--mitkin-olive); }
+
+/* Also suppress the legacy view-cart button in previously cached cart fragments. */
+.cart-widget-side .woocommerce-mini-cart__buttons > .button:not(.checkout),
+.wd-dropdown-cart .woocommerce-mini-cart__buttons > .button:not(.checkout) {
+  display: none !important;
+}

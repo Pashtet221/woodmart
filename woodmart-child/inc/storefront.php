@@ -36,6 +36,8 @@ function mitkin_storefront_cart_buttons() {
 	remove_action( 'woocommerce_widget_shopping_cart_buttons', 'woodmart_mini_cart_view_cart_btn', 10 );
 }
 add_action( 'wp_loaded', 'mitkin_storefront_cart_buttons', 30 );
+// Remove callbacks at render time too, including AJAX fragments and late theme setup.
+add_action( 'woocommerce_widget_shopping_cart_before_buttons', 'mitkin_storefront_cart_buttons', PHP_INT_MAX );
 
 /** Our idempotent opening replaces WoodMart's toggle after an asynchronous add. */
 function mitkin_storefront_cart_behavior( $value, $option ) {
@@ -54,3 +56,16 @@ function mitkin_storefront_script_data( $data, $handle ) {
 	return $data;
 }
 add_filter( 'woocommerce_get_script_data', 'mitkin_storefront_script_data', 20, 2 );
+
+/** Rename the label only while the mini-cart template is rendering. */
+function mitkin_mini_cart_total_label( $translation, $text, $domain ) {
+	return 'Subtotal' === $text ? 'Итого' : $translation;
+}
+function mitkin_mini_cart_start_labels() {
+	add_filter( 'gettext_woocommerce', 'mitkin_mini_cart_total_label', 20, 3 );
+}
+function mitkin_mini_cart_end_labels() {
+	remove_filter( 'gettext_woocommerce', 'mitkin_mini_cart_total_label', 20 );
+}
+add_action( 'woocommerce_before_mini_cart', 'mitkin_mini_cart_start_labels', 0 );
+add_action( 'woocommerce_after_mini_cart', 'mitkin_mini_cart_end_labels', PHP_INT_MAX );

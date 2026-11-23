@@ -35,6 +35,7 @@ assert(['localhost', '127.0.0.1', '[::1]'].includes(new URL(base).hostname));
     assert.equal(requests, 1, 'One click sent duplicate cart requests.');
     assert(await page.locator('.cart-widget-side').evaluate(e => e.classList.contains('wd-opened')), 'Response toggled the drawer closed.');
     assert.equal(await page.locator('.cart-widget-side .woocommerce-mini-cart__buttons a').count(), 1, 'There must be one primary CTA.');
+    assert.equal((await page.locator('.cart-widget-side .woocommerce-mini-cart__total strong').innerText()).trim(), 'Итого:');
     const checkout = page.locator('.cart-widget-side a.checkout');
     assert((await checkout.getAttribute('href')).includes(checkoutPath));
     assert.equal(await checkout.evaluate(e => getComputedStyle(e).backgroundColor), 'rgb(72, 79, 50)');

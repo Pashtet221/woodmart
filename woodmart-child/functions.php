@@ -11,3 +11,4 @@ function woodmart_child_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'woodmart_child_enqueue_styles', 10010 );
 
 require_once get_stylesheet_directory() . '/inc/checkout.php';
+require_once get_stylesheet_directory() . '/inc/storefront.php';

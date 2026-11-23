@@ -1,0 +1,32 @@
+{
+  "menus": [
+    "main-navigation-fashion-2",
+    "mobile-navigation"
+  ],
+  "items": [
+    {
+      "title": "Новинки",
+      "path": "/shop/?orderby=date"
+    },
+    {
+      "title": "Одежда",
+      "path": "/shop/"
+    },
+    {
+      "title": "Образы",
+      "path": "/#looks"
+    },
+    {
+      "title": "О бренде",
+      "path": "/#about"
+    },
+    {
+      "title": "Журнал",
+      "path": "/blog/"
+    }
+  ],
+  "menu_names": {
+    "main-navigation-fashion-2": "MITKIN — основное меню",
+    "mobile-navigation": "MITKIN — мобильное меню"
+  }
+}

@@ -23,10 +23,15 @@ $fields = $checkout->get_checkout_fields( 'billing' );
 	</section>
 	<section class="mitkin-checkout-panel mitkin-checkout-delivery-panel" aria-labelledby="mitkin-delivery-heading">
 		<h2 id="mitkin-delivery-heading"><?php echo esc_html( WC()->cart->needs_shipping() ? __( '2. Доставка', 'woodmart-child' ) : __( '2. Адрес', 'woodmart-child' ) ); ?></h2>
+		<?php if ( isset( $fields['billing_city'] ) ) : ?>
+			<div class="woocommerce-billing-fields__field-wrapper mitkin-city-fields">
+				<?php woocommerce_form_field( 'billing_city', $fields['billing_city'], $checkout->get_value( 'billing_city' ) ); ?>
+			</div>
+		<?php endif; ?>
 		<?php mitkin_checkout_shipping_methods(); ?>
 		<div class="woocommerce-billing-fields__field-wrapper mitkin-address-fields">
 			<?php foreach ( $fields as $key => $field ) : ?>
-				<?php if ( mitkin_checkout_is_address_field( $key, $field ) ) : ?>
+				<?php if ( 'billing_city' !== $key && mitkin_checkout_is_address_field( $key, $field ) ) : ?>
 					<?php woocommerce_form_field( $key, $field, $checkout->get_value( $key ) ); ?>
 				<?php endif; ?>
 			<?php endforeach; ?>

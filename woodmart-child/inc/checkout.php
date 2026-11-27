@@ -200,3 +200,19 @@ function mitkin_checkout_fragments( $fragments ) {
 	return $fragments;
 }
 add_filter( 'woocommerce_update_order_review_fragments', 'mitkin_checkout_fragments', 20 );
+
+/** Use the selected native gateway's action label on the initial render as well as AJAX. */
+function mitkin_checkout_order_button_text( $text ) {
+	if ( ! mitkin_is_classic_checkout() || ! WC()->session || ! WC()->cart || ! WC()->cart->needs_payment() ) {
+		return $text;
+	}
+	$method = WC()->session->get( 'chosen_payment_method' );
+	if ( 'cod' === $method ) {
+		return __( 'Оформить заказ', 'woodmart-child' );
+	}
+	if ( 'yookassa_epl' === $method ) {
+		return __( 'Перейти к оплате', 'woodmart-child' );
+	}
+	return $text;
+}
+add_filter( 'woocommerce_order_button_text', 'mitkin_checkout_order_button_text', 100 );

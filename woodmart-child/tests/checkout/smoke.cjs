@@ -63,12 +63,13 @@ assert(['127.0.0.1', 'localhost', '[::1]'].includes(new URL(base).hostname), 'Re
     assert.equal(await page.locator('#order_comments').count(), 1, 'Duplicated order details.');
     assert.equal(await page.locator('.mitkin-checkout-notes').count(), 1);
     assert.equal(await page.locator('.mitkin-checkout-notes').getAttribute('open'), null);
-    assert.equal(await page.locator('#billing_first_name').evaluate(e => getComputedStyle(e).borderTopLeftRadius), '12px', 'Checkout stylesheet did not apply.');
+    assert.equal(await page.locator('#billing_first_name').evaluate(e => getComputedStyle(e).borderTopLeftRadius), '6px', 'Checkout stylesheet did not apply.');
     assert((await page.locator('.mitkin-review-image img').first().evaluate(e => e.getBoundingClientRect().width)) <= 80, 'Unbounded product image.');
-    const positions = await page.locator('.mitkin-address-fields').first().evaluate(e => Object.fromEntries(['billing_state_field', 'billing_city_field', 'billing_address_1_field', 'billing_postcode_field'].map(id => [id, e.querySelector('#' + id).getBoundingClientRect().y])));
-    assert(Math.abs(positions.billing_state_field - positions.billing_city_field) < 2, 'Region and city should share a row.');
-    assert(Math.abs(positions.billing_address_1_field - positions.billing_postcode_field) < 2, 'Street and postcode should share a row.');
-    assert(positions.billing_state_field < positions.billing_address_1_field, 'Country localization restored the old address order.');
+    const fieldPositions = await page.locator('.mitkin-checkout').evaluate(e => Object.fromEntries(['billing_city_field','billing_phone_field','billing_email_field','billing_first_name_field','billing_last_name_field'].map(id => [id,e.querySelector('#'+id).getBoundingClientRect().y])));
+    const deliveryTop = await page.locator('.mitkin-checkout-shipping-methods').evaluate(e => e.getBoundingClientRect().y);
+    assert(fieldPositions.billing_city_field < deliveryTop, 'City must precede native delivery choices.');
+    assert(Math.abs(fieldPositions.billing_phone_field-fieldPositions.billing_email_field)<2, 'Phone and email must share a desktop row.');
+    assert(Math.abs(fieldPositions.billing_first_name_field-fieldPositions.billing_last_name_field)<2, 'Names must share a row.');
     assert.equal(await page.locator('.mitkin-checkout-panel').count(), 3);
     assert.equal(await page.locator('.mitkin-receiver-fields #billing_vat_test').count(), 1, 'Plugin recipient field was lost.');
     assert.equal(await page.locator('.mitkin-address-fields #billing_country').count(), 1);

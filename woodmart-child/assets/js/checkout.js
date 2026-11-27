@@ -4,6 +4,13 @@
 
     function decorateMethods() {
         var $form = $('.mitkin-checkout-form');
+        // Known gateway IDs only; WooCommerce still owns availability and submission.
+        var labels = {cod: 'Оформить заказ', yookassa_epl: 'Перейти к оплате'};
+        var method = $form.find('input[name="payment_method"]:checked').val();
+        if (labels[method]) {
+            $form.find('#place_order').text(labels[method]).val(labels[method]).attr('data-value', labels[method]);
+        }
+
         $form.find('#shipping_method li').each(function () {
             var $row = $(this);
             var $input = $row.find('input.shipping_method').first();

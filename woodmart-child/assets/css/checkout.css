@@ -24,18 +24,18 @@
   margin: 0;
 }
 .mitkin-checkout h1 {
-  font-size: clamp(32px, 3.6vw, 54px);
+  font-size: clamp(27px, 2.9vw, 43px);
 }
 .mitkin-checkout h2 {
-  font-size: clamp(27px, 2.5vw, 38px);
-  margin-bottom: 22px;
+  font-size: clamp(23px, 2vw, 30px);
+  margin-bottom: 16px;
 }
 .mitkin-checkout-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 38px;
+  margin-bottom: 28px;
 }
 .mitkin-checkout-secure {
   display: flex;
@@ -43,7 +43,7 @@
   gap: 12px;
   margin: 0;
   font-size: 21px;
-  color: #575e37;
+  color: #41433e;
 }
 .mitkin-checkout-secure span {
   font-size: 22px;
@@ -68,9 +68,9 @@
 }
 .mitkin-checkout-panel {
   border: 1px solid var(--mk-border);
-  border-radius: 17px;
+  border-radius: 8px;
   background: var(--mk-bg);
-  padding: 28px 34px;
+  padding: 20px 24px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px #37331e03;
 }
@@ -84,7 +84,7 @@
 .mitkin-checkout .woocommerce-billing-fields__field-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px 18px;
+  gap: 12px 14px;
 }
 .mitkin-checkout .form-row {
   float: none !important;
@@ -118,15 +118,15 @@
 .mitkin-checkout .select2-container--default .select2-selection--single {
   background: #fffcf880 !important;
   border: 1px solid #cec8bc !important;
-  border-radius: 9px !important;
+  border-radius: 6px !important;
   box-shadow: none !important;
   color: var(--mk-ink);
   font:
     18px/1.35 "Times New Roman",
     "Times New Roman",
     serif;
-  height: 54px;
-  padding: 13px 16px;
+  height: 48px;
+  padding: 10px 14px;
   width: 100%;
   min-width: 0;
 }
@@ -142,10 +142,10 @@
 }
 .mitkin-checkout .select2-selection__rendered {
   padding-left: 0 !important;
-  line-height: 52px !important;
+  line-height: 46px !important;
 }
 .mitkin-checkout .select2-selection__arrow {
-  height: 52px !important;
+  height: 46px !important;
 }
 .mitkin-checkout input.input-text:focus,
 .mitkin-checkout textarea:focus {
@@ -240,8 +240,8 @@
 }
 .mitkin-checkout #shipping_method li {
   border: 1px solid var(--mk-border);
-  border-radius: 10px;
-  padding: 16px;
+  border-radius: 8px;
+  padding: 12px;
   position: relative;
   margin: 0;
   min-width: 0;
@@ -306,9 +306,9 @@
 }
 .mitkin-checkout #payment .payment_methods > li {
   margin: 0 !important;
-  padding: 16px !important;
+  padding: 12px !important;
   border: 1px solid var(--mk-border);
-  border-radius: 10px;
+  border-radius: 8px;
   min-width: 0;
   background: #fffcf855;
 }
@@ -363,13 +363,13 @@
 }
 .mitkin-checkout .mitkin-checkout-summary {
   width: 100% !important;
-  padding: 30px !important;
+  padding: 22px !important;
   margin: 0 !important;
   float: none !important;
   min-width: 0;
   background: var(--mk-summary);
   border: 0 !important;
-  border-radius: 18px;
+  border-radius: 8px;
   box-shadow: none !important;
   position: sticky;
   top: 30px;
@@ -379,7 +379,7 @@
   display: none !important;
 }
 .mitkin-checkout .mitkin-checkout-summary #order_review_heading {
-  font-size: 38px;
+  font-size: 30px;
   text-align: left;
   margin: 0 0 20px;
   padding: 0;
@@ -555,10 +555,10 @@
     gap: 20px;
   }
   .mitkin-checkout-panel {
-    padding: 24px;
+    padding: 18px;
   }
   .mitkin-checkout .mitkin-checkout-summary {
-    padding: 24px !important;
+    padding: 18px !important;
   }
   .mitkin-checkout .mitkin-review-image {
     flex-basis: 60px;
@@ -592,13 +592,13 @@
     margin-bottom: 20px;
   }
   .mitkin-checkout h1 {
-    font-size: 32px;
+    font-size: 27px;
   }
   .mitkin-checkout-secure {
     font-size: 16px;
   }
   .mitkin-checkout h2 {
-    font-size: 26px;
+    font-size: 23px;
     margin-bottom: 17px;
   }
   .mitkin-checkout-layout {
@@ -606,8 +606,8 @@
     gap: 0;
   }
   .mitkin-checkout-panel {
-    padding: 20px 17px;
-    border-radius: 15px;
+    padding: 16px;
+    border-radius: 8px;
     margin-bottom: 14px;
   }
   .mitkin-checkout .form-row-first,
@@ -646,11 +646,11 @@
   }
   .mitkin-checkout .mitkin-checkout-summary {
     position: static;
-    padding: 23px 20px !important;
-    border-radius: 15px;
+    padding: 18px !important;
+    border-radius: 8px;
   }
   .mitkin-checkout .mitkin-checkout-summary #order_review_heading {
-    font-size: 29px;
+    font-size: 24px;
   }
   .mitkin-checkout .mitkin-review-image {
     flex-basis: 63px;
@@ -730,7 +730,7 @@
 }
 .mitkin-checkout-secure svg {
   flex: 0 0 24px;
-  color: var(--mk-olive);
+  color: #41433e;
 }
 @media (max-width: 760px) {
   .mitkin-checkout .mitkin-review-table .product-total {
@@ -840,22 +840,22 @@ body.woocommerce-checkout .main-page-wrapper {
   max-width: 72px !important;
   height: 84px !important;
   object-fit: cover;
-  border-radius: 12px !important;
+  border-radius: 6px !important;
 }
 .mitkin-checkout .mitkin-checkout-panel {
-  border-radius: 18px !important;
+  border-radius: 10px !important;
   background: #fbf8f4 !important;
   box-shadow: 0 3px 18px #39362104;
 }
 .mitkin-checkout .mitkin-checkout-summary {
-  border-radius: 18px !important;
+  border-radius: 10px !important;
   background: linear-gradient(145deg, #f4ede4, #eee6d9) !important;
 }
 .mitkin-checkout .form-row .input-text,
 .mitkin-checkout .select2-container--default .select2-selection--single {
-  border-radius: 12px !important;
+  border-radius: 6px !important;
   background: #fffcf9 !important;
-  min-height: 52px;
+  min-height: 48px;
 }
 .mitkin-checkout .form-row label {
   font-size: 12px;
@@ -934,8 +934,8 @@ body.woocommerce-checkout .main-page-wrapper {
 }
 .mitkin-checkout > form.checkout_coupon button {
   width: 100%;
-  min-height: 54px;
-  border-radius: 10px;
+  min-height: 48px;
+  border-radius: 8px;
   background: var(--mk-olive);
   color: #fff;
   font-family: "Times New Roman", Times, serif;
@@ -1017,3 +1017,14 @@ body.woocommerce-checkout .main-page-wrapper {
 .mitkin-checkout .mitkin-checkout-coupon {
   margin-top: 24px;
 }
+
+/* Recipient pairs remain native WooCommerce fields. Names stay paired on phones too. */
+.mitkin-checkout .mitkin-receiver-fields #billing_first_name_field,
+.mitkin-checkout .mitkin-receiver-fields #billing_last_name_field {width:calc(50% - 7px)!important;}
+@media(min-width:761px){
+ .mitkin-checkout .mitkin-receiver-fields #billing_phone_field,
+ .mitkin-checkout .mitkin-receiver-fields #billing_email_field {width:calc(50% - 7px)!important;}
+}
+.mitkin-checkout .mitkin-city-fields{margin-bottom:14px;}
+.mitkin-checkout .mitkin-city-fields .form-row{width:100%!important;}
+.mitkin-checkout #payment .payment_method_yookassa_epl>label img{display:none!important;}
